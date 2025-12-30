@@ -1,6 +1,6 @@
 import ProductCard from "./ProductCard";
 import PracticalTaskCode from "./PracticalTask/PracticalTaskCode";
-import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 function App() {
   const products = [
